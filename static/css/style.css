@@ -1,0 +1,71 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+.navbar-brand {
+	width: 165px;
+  text-align: center;
+}
+
+.nav>li>a {
+	text-align: center;
+  display: block;
+  margin-right: 10px;
+}
+
+.goodWrap {
+  height: 450px;
+  width: 100%;
+  float: left;
+  border: 1px solid #aaa;
+  margin-bottom: 20px;
+    }
+
+p > a > img {
+height: 120px;
+}
+
+.imgGood {
+  text-align: center;
+} 
+
+.imageGood {
+  max-height: 300px;
+  margin-top: 15px;
+}  
+
+.nameGood {
+  padding-left: 10px;
+  height: 70px;
+}
+
+.buy {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.price {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 150%;
+}
+
+.description p {
+  max-height: 120px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  background-color: #555;
+  color: white;
+  padding: 15px; /* Поля вокруг текста */
+  height: 60px;
+    }
